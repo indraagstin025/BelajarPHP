@@ -1,19 +1,18 @@
 <?php
 
-//$values = array(1,2,3,4.5);
-//var_dump($values);
+$values = array(1,2,3,4.5);
+var_dump($values);
 
-//$names = ["Indra", "Agustin", "Agustian"];
-//var_dump($names);
+$names = ["Indra", "Agustin", "Agustian"];
+var_dump($names);
+var_dump($names[0]);
 
-//var_dump($names[0]);
-
-//$names[0] = "Agus";
-//var_dump($names); 
-//unset($names[1]);
-//var_dump($names);
-//$names[] = "Abdul";
-//var_dump($names);
+$names[0] = "Agus";
+var_dump($names); 
+unset($names[1]);
+var_dump($names);
+$names[] = "Abdul";
+var_dump($names);
 
 $names = array (
     "id" => "Indra",
